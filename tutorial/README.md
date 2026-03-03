@@ -1,2 +1,2 @@
 # Tutorial
-This is a tutorial that .
+"Tutorial.ipynb" will told you that how to design the .
