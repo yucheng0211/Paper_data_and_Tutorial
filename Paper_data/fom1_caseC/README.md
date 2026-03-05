@@ -24,6 +24,8 @@ FoM monitor 的大小設定為
 $$
 \text{monitor\_size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
 $$
+
+
 ---
 
 ## 📂 檔案清單與功能說明
