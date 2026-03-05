@@ -2,13 +2,13 @@
 本資料夾包含光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據。
 
 **本設計參數**  
-`$ \text{cell\_size} = (0.8\,\mu\text{m}, 0.8\,\mu\text{m}) $`
+$ \text{cell\_size} = (0.8\,\mu\text{m}, 0.8\,\mu\text{m}) $
 
 **Figure of Merit**  
-`$ \text{FoM}(1) = \frac{1}{N_{\text{grid}}} \sum_{N_x,N_y} |E_y|^2 $`
+$ \text{FoM}(1) = \frac{1}{N_{\text{grid}}} \sum_{N_x,N_y} |E_y|^2 $
 
 **FoM monitor 大小**  
-`$ \text{cell\_size} = (0.2\,\mu\text{m}, 0.2\,\mu\text{m}) $`
+$ \text{cell\_size} = (0.2\,\mu\text{m}, 0.2\,\mu\text{m}) $
 
 ## 📂 檔案清單與功能說明
 
