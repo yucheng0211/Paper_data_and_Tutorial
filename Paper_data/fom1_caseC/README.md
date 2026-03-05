@@ -4,7 +4,7 @@
 
 本設計的 **design region size** 為
 $$
-\text{cell size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})
+cell size = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})
 $$
 
 本研究使用的 **Figure of Merit (FoM)** 定義為：
@@ -20,7 +20,7 @@ $$
 
 FoM monitor 的大小設定為
 $$
-\text{monitor size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
+monitor size = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
 $$
 
 
