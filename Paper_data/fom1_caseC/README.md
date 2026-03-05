@@ -5,7 +5,7 @@
 本設計的 **design region size** 為
 $$
 \text{cell size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})
-$$  
+$$
 
 本研究使用的 **Figure of Merit (FoM)** 定義為：
 
@@ -18,7 +18,7 @@ $$
 - $E_y$ 為 $y$ 方向的 electric field  
 - $N_{\mathrm{grid}}$ 為 FoM monitor 區域內的 grid 數量  
 
-FoM monitor 的大小設定為  
+FoM monitor 的大小設定為
 $$
 \text{monitor size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
 $$
