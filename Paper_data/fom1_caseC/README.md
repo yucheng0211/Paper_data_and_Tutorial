@@ -2,8 +2,10 @@
 
 本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。
 
-本設計的 **design region size** 為  
-$\text{cell size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})$  
+本設計的 **design region size** 為
+$$
+\text{cell size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})
+$$  
 
 本研究使用的 **Figure of Merit (FoM)** 定義為：
 
@@ -17,7 +19,9 @@ $$
 - $N_{\mathrm{grid}}$ 為 FoM monitor 區域內的 grid 數量  
 
 FoM monitor 的大小設定為  
-$\text{monitor size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})$
+$$
+\text{monitor size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
+$$
 
 
 ---
