@@ -1,5 +1,4 @@
 # Cavity Period 設計與分析專案
-===
 本資料夾包含光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據。
 
 **Design**: cell_size = (0.8 μm × 0.8 μm)  
