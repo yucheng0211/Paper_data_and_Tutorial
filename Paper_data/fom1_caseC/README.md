@@ -5,7 +5,8 @@
 本設計的 **design region size** 為  
 $\text{cell size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})$  
 
-本研究使用的 **Figure of Merit (FoM)** 定義為：  
+本研究使用的 **Figure of Merit (FoM)** 定義為：
+
 $$
 FoM = \frac{1}{N_{\mathrm{grid}}}\sum_{N_x,N_y} |E_y|^2
 $$
