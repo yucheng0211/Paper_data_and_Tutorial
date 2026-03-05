@@ -1,28 +1,28 @@
 # Cavity Period 設計與分析專案
 
-本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。  
-本設計  
+本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。
+
 本設計的 **design region size** 為
 
 $$
-\text{cell\_size} = (1\,\mu m,\,1\,\mu m)
+\text{cell\_size} = (1\,\mu\mathrm{m},\,1\,\mu\mathrm{m})
 $$
 
 本研究使用的 **Figure of Merit (FoM)** 定義為：
 
 $$
-FoM = \frac{1}{N_{\text{grid}}}\sum_{N_x,N_y} |E_y|^2
+FoM = \frac{1}{N_{\mathrm{grid}}}\sum_{N_x,N_y} |E_y|^2
 $$
 
 其中：
 
-- \(E_y\) 為 \(y\) 方向的 electric field  
-- \(N_{\text{grid}}\) 為 FoM monitor 區域內的 grid 數量  
+- $E_y$ 為 $y$ 方向的 electric field  
+- $N_{\mathrm{grid}}$ 為 FoM monitor 區域內的 grid 數量  
 
 FoM monitor 的大小設定為
 
 $$
-\text{monitor\_size} = (0.1\,\mu m,\,0.1\,\mu m)
+\text{monitor\_size} = (0.1\,\mu\mathrm{m},\,0.1\,\mu\mathrm{m})
 $$
 ---
 
