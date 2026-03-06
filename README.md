@@ -47,4 +47,14 @@ python casea.py
 | finite_ABpair | [finite_ABpair](Paper_data/finite_ABpair/) | AB pair for Q-factor enhancement |
 | tutorial | [tutorial](tutorial/) | Simple tutorial examples |
 
+> [!NOTE]
+> When running the code in the **Paper_data** directory, please ensure you are using the virtual environment created from the `pmp.yaml` configuration file to guarantee compatibility.
+
+### 💻 Environment Configuration
+* **Meep Version**: `1.29.0`
+* **MPI Version**: `4.1`
+
+> [!CAUTION]
+> **Version Compatibility Warning**: The plotting scripts in this project were developed specifically for Meep `1.29.0`. If you use Meep version `1.30.0` or later, the plotting functions may encounter errors. For users on version 1.30+, please refer to the `tutorial` folder for updated instructions.
+
 
