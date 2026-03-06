@@ -1,4 +1,8 @@
-# Photonic Crystal Cavity Design & Optimization (FoM ３)　with **non-period boundary cindition**
+# Photonic Crystal Cavity Design & Optimization (FoM ３)
+
+> [!IMPORTANT]
+> **Boundary Condition:** 本設計採用 **Non-periodic boundary condition** (例如 PML)，以模擬有限尺寸腔體的物理行為。
+
 
 本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。
 
