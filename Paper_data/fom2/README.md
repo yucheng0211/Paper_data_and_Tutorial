@@ -1,19 +1,45 @@
 # Cavity Period 設計與分析專案
 
-本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。  
-本設計  
-$$
-\text{cell\_size} = (1\,\mu m,\,1\,\mu m)
-$$
-Figure of Merit(FoM) 是 
-$$
-FoM(1) = \frac{1}{N_{\text{grid}}}\sum_{N_x,N_y} |E_y|^2
-$$
+# Photonic Crystal Cavity Design & Optimization
 
-FoM monitor size 大小是  
-$$
-\text{cell\_size} = (0.1\,\mu m,\,0.1\,\mu m)
-$$
+本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。
+
+---
+
+## 📐 設計參數 (Design Parameters)
+
+### 1. 設計區域 (Design Region)
+本設計的設計空間尺寸為：
+$$(1\,\mu m, 1\,\mu m)$$
+
+### 2. 品質因數 (Figure of Merit, FoM)
+我們定義 $FoM(2)$ 用於衡量電場在特定空間內的集中程度，其公式如下：
+
+$$FoM(2) = \frac{J_1}{J_2}$$
+
+其中：
+* **$J_1$ (目標集中區域):** $$J_1 = \frac{1}{N_{A_1 \text{ grid}}} \sum_{A_1} |E_y|^2$$
+* **$J_2$ (參考對照區域):** $$J_2 = \frac{1}{N_{A_2 \text{ grid}}} \sum_{A_2} |E_y|^2$$
+
+#### 區域尺寸定義 (Area Dimensions):
+* $A_1 = (0.01\,\mu m, 0.01\,\mu m)$
+* $A_2 = (0.01\,\mu m, 1\,\mu m)$
+
+> [!NOTE]
+> 關於 FoM 區域分佈的視覺化示意圖，請參考專案路徑：
+> `Paper_data_and_Tutorial/Paper_data/figure_in_paper/fom2/plot_fom2.png`
+
+
+
+### 3. 監測器設定 (Monitor Settings)
+FoM Monitor 的物理尺寸大小設定為：
+$$(0.1\,\mu m, 0.1\,\mu m)$$
+
+---
+
+## 🛠 使用說明
+1.  確保模擬環境的網格解析度 (Mesh Resolution) 足以捕捉 $0.01\,\mu m$ 等級的場強變化。
+2.  優化腳本會根據上述 $FoM(2)$ 定義進行梯度運算，以極大化電場在 $A_1$ 區域的佔比。
 
 ---
 
