@@ -26,8 +26,8 @@ $$FoM(2) = \frac{J_1}{J_2}$$
 * $A_2 = (0.01\,\mu m, 1\,\mu m)$
 
 > [!NOTE]
-> 關於 FoM 區域分佈的視覺化示意圖，請參考專案路徑：
-> `Paper_data_and_Tutorial/Paper_data/figure_in_paper/fom2/plot_fom2.png`
+> 關於 FoM 區域分佈的視覺化示意圖，如下  
+![FoM 示意圖](Paper_data_and_Tutorial/Paper_data/figure_in_paper/fom2/plot_fom2.png)
 
 
 
