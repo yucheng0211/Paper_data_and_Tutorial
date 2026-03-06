@@ -48,10 +48,16 @@ $$
 ### 📊 分析與繪圖 (Notebooks)
 * **`fom_chang.ipynb`**: 讀取優化紀錄，繪製 FOM (Figure of Merit) 隨時間或迭代次數變化的趨勢圖。
 * **`harminv.py`**: 計算並分析腔體的 **Q 值** (Quality Factor / Harmonic analysis)。
-使用以下command run `harminv.py`
-
-mpirun -np 20 python harminv.py > logharm.txt 2>&1 &
-
+    
+    使用以下命令在背景執行 `harminv.py`：
+    ```bash
+    mpirun -np 20 python harminv.py > logharm.txt 2>&1 &
+    ```
+---
+**💡 提示**：
+* `-np 20` 代表使用 20 個 CPU 核心進行並行運算。
+* `> logharm.txt 2>&1` 會將所有輸出與錯誤訊息紀錄至 `logharm.txt`。
+* 末尾的 `&` 符號會讓程式在系統後台執行，不會占用終端機視窗。
 
 * **`replot_field.ipynb`**: 
     * 重繪 DFT 場圖分布。
