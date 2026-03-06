@@ -1,20 +1,41 @@
 # Cavity Period 設計與分析專案
 
-本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。  
-本設計  
+# Photonic Crystal Cavity Design & Optimization (FoM 1)
+
+本資料夾包含用於光子晶體腔 (Photonic Crystal Cavity) 設計、優化及物理特性分析的腳本與數據資料。
+
+---
+
+## 📐 物理尺寸定義 (Physical Dimensions)
+
+### 1. 設計區域尺寸 (Design Region Size)
+在模擬環境中，允許結構變動的整體設計區域大小為：
+
 $$
 \text{cell\_size} = (1\,\mu m,\,1\,\mu m)
 $$
-Figure of Merit(FoM) 是 
-$$
-FoM(1) = \frac{1}{N_{\text{grid}}}\sum_{N_x,N_y} |E_y|^2
-$$
 
-FoM monitor size 大小是  
+### 2. 監測器尺寸 (FoM Monitor Size)
+用於擷取電場數據並計算品質因數的監測器區域大小為：
+
 $$
 \text{cell\_size} = (0.1\,\mu m,\,0.1\,\mu m)
 $$
 
+---
+
+## 🎯 Figure of Merit (FoM)
+
+本設計目標在於極大化監測器範圍內的平均電場強度。**FoM(1)** 的定義如下：
+
+$$
+FoM(1) = \frac{1}{N_{\text{grid}}}\sum_{N_x,N_y} |E_y|^2
+$$
+
+### 參數說明：
+* **$|E_y|^2$**: 代表在特定網格點上的 $E_y$ 極化電場強度平方。
+* **$N_{\text{grid}}$**: 代表監測器區域 $(0.1\,\mu m \times 0.1\,\mu m)$ 內的總網格點數量。
+* **物理意義**: 此數值代表了目標小區域內的 **平均電場能量密度**。
 ---
 
 ## 📂 檔案清單與功能說明
