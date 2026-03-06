@@ -51,7 +51,7 @@ $$
     
     使用以下命令在背景執行 `harminv.py`：
     ```bash
-    mpirun -np 20 python harminv.py > logharm.txt 2>&1 &
+    nohup mpirun -np 20 python harminv.py > logharm.txt 2>&1 &
     ```
 ---
 **💡 提示**：

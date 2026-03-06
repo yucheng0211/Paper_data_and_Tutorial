@@ -214,10 +214,10 @@ print(f"Optimization completed in {end_time - start_time:.4f} seconds")
 print("Optimization is complete.")
 
 # Save final data
-file_path = f'data'
+file_path = 'data'
 final_design = mapping(x, eta_i, cur_beta/beta_scale)
 np.save(f"{file_path}/final_design.npy",final_design)
-np.save(f"{file_path}/eval_history.npy",evaluation_history)
+np.save(f"{file_path}/eval_history.npy",np.array(evaluation_history))
 print(f"Final results saved to {file_path}")
 
 
