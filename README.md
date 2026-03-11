@@ -44,7 +44,6 @@ python casea.py
 | fom3 | [fom3](Paper_data/fom3/) | **FoM3** case |
 | fom4 | [fom4](Paper_data/fom4/) | **FoM4** case |
 | fom5 | [fom5](Paper_data/fom5/) | **FoM5** case (**best**) |
-| finite_ABpair | [finite_ABpair](Paper_data/finite_ABpair/) | AB pair for Q-factor enhancement |
 | tutorial | [tutorial](tutorial/) | Simple tutorial examples |
 
 > [!NOTE]
